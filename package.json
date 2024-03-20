@@ -11,7 +11,7 @@
     "test:no-reloading": "npx ts-node --files -r tsconfig-paths/register ./spec"
   },
   "author": "Nilton Gonçalves Medeiros",
-  "license": "ISC",
+  "license": "MIT",
   "nodemonConfig": {
     "watch": [
       "src"
