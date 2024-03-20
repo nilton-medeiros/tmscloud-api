@@ -1,4 +1,5 @@
-const knexfile = require("../knexfile").dbuser_lw;
+// Em knexfile.js tem dois banco de dados: dbuser_lw e dbuser_ap
+const knexfile = require("../knexfile").dbuser_lw;  // Testando com o banco dbuser_lw
 const knex = require("knex")(knexfile);
 
 const pegarCTe = require("./src/pegarCTe");
